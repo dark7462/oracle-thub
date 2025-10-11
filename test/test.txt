@@ -1,0 +1,8 @@
+6 table:
+    department : 8
+    student : 150
+    faculty : 42
+    courses : 17
+    Two junctions table:
+    enrollments (which student enrolled into which course) : 450
+    couse_mapping (which faculty teaches which course) : 61

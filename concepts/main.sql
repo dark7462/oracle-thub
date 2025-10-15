@@ -24,4 +24,6 @@ INSERT INTO emp VALUES
 ;
 
 SELECT * FROM emp;
+
+drop table emp;
 drop table teams;

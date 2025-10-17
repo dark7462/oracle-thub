@@ -34,3 +34,19 @@ SAVEPOINT a;
 ROLLBACK to a;
 
 DELETE FROM temp where id = 2; -- just to check how it works
+
+-------------------------------------------------------------------------------------------------------------
+
+-- acid principles
+
+-- A-> Automaicity
+    -- This states that either all the trancsactions are passed or all are failed
+-- C-> Consitency
+    -- This esures that any transaction must leaves the database in a consistent state
+-- I-> Isolation
+    -- Multiple transaction can take place on the database at once
+    -- but they must behave in such a way that they have been applied a serial number
+    -- database achieve isolation called serializalibity
+    -- MAINTAINING LOGs in short
+-- D-> Durability
+-- all the SQL  vendors (oracle , postgreSQL, sql server) maintain these principle to be the ideal database for the users to use them
